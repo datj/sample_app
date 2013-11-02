@@ -3,6 +3,11 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.0'
+gem 'less', '2.2.2'
+gem 'therubyracer', :platforms => :ruby
+gem "less-rails"
+
+gem "twitter-bootstrap-rails", '2.1.4'
 gem 'pg', '0.15.1'
 
 group :development, :test do
@@ -27,4 +32,8 @@ end
 
 group :production do
   gem 'rails_12factor', '0.0.2'
+end
+
+group :assets do
+  gem 'bootstrap-sass-rails'
 end
