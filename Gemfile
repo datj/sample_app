@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 gem 'less', '2.2.2'
 gem 'therubyracer', :platforms => :ruby
 gem "less-rails"
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 gem "twitter-bootstrap-rails", '2.1.4'
 gem 'pg', '0.15.1'

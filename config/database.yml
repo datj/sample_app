@@ -18,7 +18,7 @@ development:
 test:
   adapter: postgresql
   host: localhost
-  database: db/test.postgresql
+  database: testpostgresql
   pool: 5
   timeout: 5000
   username: vagrant
