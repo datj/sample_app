@@ -6,11 +6,11 @@
 development:
   adapter: postgresql
   host: localhost
-  database: "db/development.postgresql"
+  database: "test"
   pool: 5
   timeout: 5000
-  username: rails
-  password: myPassword
+  username: postgres
+  password: apassword
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -18,11 +18,11 @@ development:
 test:
   adapter: postgresql
   host: localhost
-  database: testpostgresql
+  database: test
   pool: 5
   timeout: 5000
-  username: vagrant
-  password: myPassword
+  username: postgres
+  password: apassword
 
 production:
   adapter: postgresql
